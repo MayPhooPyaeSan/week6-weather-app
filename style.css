@@ -1,0 +1,125 @@
+/** @format */
+
+.weather-app {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: #bfd7ff;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+h4 {
+  /* text-align: center; */
+  font-family: "Outfit", sans-serif;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 4px;
+}
+
+.input-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.input {
+  padding: 7px 10px;
+  border: none;
+  border-radius: 7px;
+}
+
+.searchBtn {
+  padding: 7px 10px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.searchBtn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.currentBtn {
+  padding: 7px 10px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.currentBtn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.about-city {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  gap: 20%;
+}
+
+.city-day {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Outfit", sans-serif;
+  margin-top: 5%;
+}
+
+.city {
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li {
+  list-style: none;
+  opacity: 0.9;
+}
+
+.temperature {
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+}
+
+.about-weekdays {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10%;
+  margin-left: 10%;
+  padding: 10px 10px;
+  background-color: #ffdef2;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  margin-bottom: 5%;
+}
+
+.emoji {
+  text-align: center;
+  cursor: pointer;
+}
