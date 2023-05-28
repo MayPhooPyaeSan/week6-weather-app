@@ -132,3 +132,7 @@ li {
   text-decoration: none;
   color: palevioletred;
 }
+
+.link a:hover {
+  text-decoration: underline;
+}
