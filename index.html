@@ -1,0 +1,73 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap"
+      rel="stylesheet" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="weather-app">
+      <div class="container">
+        <h2>Check out the weather!</h2>
+        <div class="input-btn">
+          <input
+            type="text"
+            placeholder="search a city"
+            class="input"
+            id="city-input" />
+          <button class="searchBtn">Search</button>
+          <button class="currentBtn">Current</button>
+        </div>
+        <div class="about-city">
+          <div class="city-day">
+            <li class="city" id="city">Mandalay</li>
+            <!-- <li id="day-time">Sunday 10:00 AM</li> -->
+            <li id="weather-description">Clear</li>
+            <h1 id="#weather-icon"">⛅</h1>
+          </div>
+          <div>
+            <p class="temperature" id="temperature">19ºC</p>
+            <p id="humidity">Humidity: 77%</p>
+            <p id="wind">Wind: 8 km/h</p>
+          </div>
+        </div>
+        <div class="about-weekdays">
+          <div class="days">
+            <p>Monday</p>
+            <h1 class="emoji">☁️</h1>
+            <p style="text-align: center">19ºC</p>
+          </div>
+          <div class="days">
+            <p>Tuesday</p>
+            <h1 class="emoji">⛅️</h1>
+            <p style="text-align: center">20ºC</p>
+          </div>
+          <div class="days">
+            <p>Wednesday</p>
+            <h1 class="emoji">☁️</h1>
+            <p style="text-align: center">23ºC</p>
+          </div>
+          <div class="days">
+            <p>Thursday</p>
+            <h1 class="emoji">⛅️</h1>
+            <p style="text-align: center">26ºC</p>
+          </div>
+          <div class="days">
+            <p>Friday</p>
+            <h1 class="emoji">☁️</h1>
+            <p style="text-align: center">19ºC</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
